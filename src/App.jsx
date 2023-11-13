@@ -5,7 +5,7 @@ import './App.css'
 import Question from './components/Question'
 import {Routes,Route} from 'react-router-dom';
 function App() {
-  const [count, setCount] = useState(0)
+  const [id, setId] = useState(0);
 
   return (
     <div>
@@ -18,7 +18,7 @@ function App() {
         <div className='box'>
           <Routes>
               <Route path='/' element={<Question/>}/>
-              <Route path='/q' element={<Question/>}/>
+              <Route path='/:id' element={<Question/>}/>
           </Routes>
           
         </div>
