@@ -1,7 +1,7 @@
 import React from 'react'
 // import QuestionList  from './../QuestionList'
 import {question } from './../QuestionList'
-import Displayques from './displayques';
+import Displayques from './Displayques';
 
 const Question=()=> {
     console.log(question[0].type);
