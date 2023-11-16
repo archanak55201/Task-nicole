@@ -26,8 +26,10 @@ function Display({question}) {
                   <input type='checkbox' placeholder='false' value="False" /><label>FALSE</label>
                     </div>
                     }) */}
-                   <input type='checkbox' placeholder='true' value="true"  /><label>TRUE</label>
-                  <input type='checkbox' placeholder='false' value="False" /><label>FALSE</label>
+                   <input type='checkbox' placeholder='true' value="true"  /><label>careful</label>
+                  <input type='checkbox' placeholder='false' value="False" /><label>careless</label>
+                  <input type='checkbox' placeholder='false' value="False" /><label>diligent</label>
+                  <input type='checkbox' placeholder='false' value="False" /><label>ultra-careful</label>
                 </div>
 
               }
