@@ -13,7 +13,7 @@ const Quest=()=> {
         question.map((questionpro,index)=>(
             <> 
             <Display question={questionpro}/>
-            
+            <hr style={{marginTop:"30px"}}></hr>
             </>
         ))
     }

@@ -14,6 +14,7 @@ function App() {
     <div>
        
         ...{id}...
+        
         <div className='box'>
           <Routes>
               <Route path='/' element={<Quest/>}/>
