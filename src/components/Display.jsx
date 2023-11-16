@@ -2,10 +2,7 @@ import React from 'react'
 import "./../App.css";
 
 function Display({question}) {
-console.log(isArray(question.choices));
-const sum = question.choices.map((val)=>{
-  console.log(val);
-})
+
   return (
     <div>
         <div className='head-ques'>
